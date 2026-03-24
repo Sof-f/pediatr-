@@ -214,14 +214,24 @@
     color: #FFFFFF;
 }
 
+.btn__arrows-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .btn__arrows{
+
     background-color: transparent;
     border: none;
     cursor: pointer;
+
 }
 
 .left__arrow{
     transform: rotate(180deg);
+    padding-top: 5px;
 }
 
 
