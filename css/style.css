@@ -6,6 +6,10 @@
     padding: 10px 215px 10px 215px;
 }
 
+.a{
+    text-decoration: none;
+}
+
 .footer__content{
     display: flex;
     flex-direction: row;
@@ -47,6 +51,7 @@
     color: #FFFFFF;
     border-radius: 15px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -60,7 +65,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 54px;
+    gap: 85px;
     align-items: center;
     padding: 15px 0 ;
 }
@@ -88,4 +93,140 @@
 .nav__content-item:hover{
     border-bottom: 2px solid #009BE3;
     transition: 0.5s;
+}
+
+
+
+.main__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.main__img-lion{
+    position: absolute;
+    size: 100%;
+    left: -200px;
+    top: 35%;
+}
+
+.img__main-monkey{
+    position: absolute;
+    size: 100%;
+    right: -215px;
+    top: 35%;
+}
+
+.main__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.main__right{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main__description{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.main__title{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 62px;
+    line-height: 96%;
+}
+
+.main__subtitle{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+
+.main__trophy{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+
+.main__trophy-text{
+    font-family: Montserrat;
+    font-weight: 200;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 160%;
+
+}
+
+.main__trophy-text::before{
+    content: "Лучшая";
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 160%;
+    margin-right: 5px;
+}
+
+.main__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 55px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.main__btn{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    text-align: center;
+    background-color: #40AA29;
+    padding: 15px 27px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.main__bottom-h4{
+    padding: 9px 25px;
+    color: #FFFFFF;
+}
+
+.btn__arrows{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.left__arrow{
+    transform: rotate(180deg);
+}
+
+
+.main__blue{
+    background-color: #ECF9FF;
+    height: 40px;
+    margin: 0;
 }
