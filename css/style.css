@@ -1,13 +1,11 @@
 .container{
-    display: flex;
-    /* justify-content: center; */
     align-items: center;
-
     padding: 10px 215px;
 }
 
 .a{
     text-decoration: none;
+
 }
 
 .footer__content{
@@ -92,7 +90,7 @@
 
 .nav__content-item:hover{
     border-bottom: 2px solid #009BE3;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 
@@ -358,3 +356,116 @@
 
 }
 
+
+
+
+
+
+.service{
+    padding: 150px 0 61px 0;
+}
+
+
+.service__title{
+    margin-bottom: 100px;
+
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.service__catalog-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 62px;
+    border-bottom: 2px solid #40AA29;
+
+}
+
+.service__catalog-item{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+
+}
+
+.service__catalog-h4{
+    display: flex;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    align-items: flex-end;
+    padding: 0 0 10px 0;
+
+}
+
+.service__btns{
+    gap: 29px;
+}
+
+.service__a, .service__a h2 {
+    color: inherit; 
+    text-decoration: none;
+}
+
+
+.service__a{
+    color: #40AA29;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+
+.service__btn-item {
+    display: inline-block;
+    padding: 17px 45px;
+    border: 2px solid #40AA29;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #40AA29; /* Цвет текста изначально */
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s; /* Плавность для всего: и фона, и текста */
+    cursor: pointer;
+}
+
+.service__btn-item:hover {
+    background-color: #40AA29; /* Зеленый фон */
+    color: #FFFFFF;           /* Белый текст */
+}
+
+.service__see-all{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    text-align: center;
+    color: #1C1C1C;
+    padding: 0;
+}
+
+.service__see-all-link{
+    color: #1C1C1C;
+    cursor: pointer;
+    border-bottom: 2px solid #1C1C1C;
+}
+
+.service__see-all::after{
+    content: ">";
+    margin-left: 13px;
+    bottom: 0px;
+    color: #1C1C1C;
+}
